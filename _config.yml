@@ -1,0 +1,159 @@
+# Site
+repository:  tipapro/tipapro.github.io
+favicon: images/favicon.ico
+
+# Personal info
+name: Богомолов Андрей
+title: Android Developer
+email: tipapro@hotmail.com
+#website: www.github.com/tipapro
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# Social links
+github_username:  tipapro
+linkedin_username: tipapro
+
+# Additional icon links
+additional_links:
+- title: telegram
+  icon: fab fa-telegram
+  url: https://telegram.me/anbotip
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# About Section
+about_title: Обо мне
+#about_profile_image: images/profile.jpg
+about_content: |
+  Попробовал множество направлений разработки. Люблю развивать, улучшать и экспериментировать с архитектурой проекта в поисках более простого и удобного варианта.
+  
+  Программирую с лета 2016 года на C#. С 06.2019 пишу под Android (на Xamarin.Android). С 04.2020 – на kotlin.
+  
+
+content:
+  - title: Скиллы
+    layout: list
+    content:
+      - layout: left
+        title: Android
+        description: |
+          - UI: Jetpack Compose, Material (2), Material You (3), View Binding
+          - Изображения: Coil, Glide
+          - Сеть: Retrofit, OkHttp, Ktor, Paging 3
+          - Навигация: Cicerone, Jetpack Navigation
+          - DI: Koin, Kodein, Dagger 2 (редко использовал)
+          - Сериализация: kotlinx.serialization, GSON
+          - Потоки данных: Flow + Coroutines, RxJava 3 (редко использовал)
+          - Хранение данных: Room, KodeinDB, файловая система Android
+          - Прочее: CameraX, Jsoup, Glance Appwidget
+      - layout: left
+        title: Архитектура
+        description: |
+          MVVM, MVI, UDF, Clean
+      - layout: left
+        title: Инструментарий
+        description: |
+          Github, Jira, Trello, Figma
+
+  - title: Опыт работы
+    layout: list
+    content:
+      - layout: left
+        title: Ozon
+        link: seller.ozon.ru
+        sub_title: Ведущий Android разработчик
+        caption: Июнь 2022 — наст. (1 год 9 месяцев)
+        description: |
+            (TODO написать результат для каждого пунтка)
+            (TODO дополнить с р.2 и р.3)
+            Выполнял разного спектра задачи в платформенной команде:
+            - Ресёрч оптимизация Compose и помощь фиче-командам при оптимизации. Написал две статьи на Хабр и ProAndroidDev. В результате смогли понизить показатель лага на экранах со списками до 0% (Хитч рейт). Также благодарая статье и активной поддержке выросла компетентость других разработчиков по этой теме, что позволило им писать более оптимиальный Compose-код.
+            - Написал фреймворк навигации поверх Jetpack Navigation, который позволил удобно организовать многомодульную навигацию, абстрагировать объявления экрана навигации от фреймворка, сами объявления декларативны. Также фрейморк решал прроблему миграции с фрагментов на чистый Compose. После успешной откатки фреймворк стал отдельной внутренней библиотекой для использования другими приложениями Ozon. Написал документацию по нему.
+            - Участвовал в модуляризации, участвовал в выносе некоторых модулей в core, выносил самый сложный и легаси модуль для примера фиче-командам, писал документацию по выносу. Помогал фиче-командам в сложных кейсах и при проблемах с Dagger.
+            - Участвовал в написании Ozon uikit 2022 на Compose. Следил за производительностью написанного кода при ревью. Писал некоторые ui компоненты. Следил за удобство API и соотсвествии практикам Google Material Compose.
+            - Внедрял Ozon AbTool - внутреннюю библиотеку для фиче-флагов. Сделал статическую реализацию для удобного использования в коде.
+            - Внедрял OzonID - внутреннюю библиотеку для авторизации. Пришлось копаться в самом старом и лапшичном коде приложения. По итогу внедрение произошло без багов.
+            - Дорабатывал Ozon Tracker - внутреннюю библиотеку для аналитики. Сделал кастомизируемые события с удобным DSL. Итог - разработчикам теперь не нужно на каждое новое поле ходить в репозиторий трекер и по всему флоу доработки внутренней библиотеки добавлять туда одно поле.
+            - Замещал стрим лида во время отпуска.
+            - Проведение технических собеседований, написание новых вопросов (секция Compose) и дополненние существующих.
+            - Написал сбор Total Time и впоследствии много дорабатывал.
+            - TODO
+
+      - layout: left
+        title: Дар (Российский офис)
+        link: dar.io
+        sub_title: Android Developer
+        caption: Май 2020 — Апрель 2022 (2 года)
+        description: |
+            Кодил в разных проектах:
+            - писал фичи в приложении для инвестирования (для России и для Великобритании),
+            - проектировал архитектуру и писал с нуля приложение для частного поcёлка и приложение для оплаты чаевых по лицу/QR коду
+            - переносил дизайн-систему (палитру (светлую и тёмную) + элементы) из фигмы
+            - рефакторил архитектуру приложения
+
+
+  - title: Проекты
+    layout: list
+    content:
+      - layout: left
+        title: Edugma
+        link: github.com/Edugma/app
+        additional_links:
+          - title:  Github
+            icon: fab fa-github
+            url: github.com/Edugma/app
+        description: |
+          Децентрализованное мобильное приложение для учебных заведений. К нему может подключиться любое учебное заведение, подняв свой узел и реализовав нужный API. Пока в процессе (мои schedule фичи). Также пишу узел (Web API) для Московского политеха (kotlin + ktor)
+      
+      - layout: left
+        title: mospolyhelper
+        caption: 3000 загрузок
+        link: github.com/mospolyhelper/mospolyhelper-android
+        # link_text: Project Website
+        additional_links:
+          - title:  Github
+            icon: fab fa-github
+            url: github.com/mospolyhelper/mospolyhelper-android
+          - title:  Google Play
+            icon: fab fa-google-play
+            url: play.google.com/store/apps/details?id=com.mospolytech.mospolyhelper
+        description: |
+          Мобильное приложение для Московского Политеха.
+          Android приложение + Asp Net Core Web Api + вебсайт на Vue.js
+
+  - title: Образование
+    layout: list
+    content:
+      - layout: left
+        title: Московский политехнический университет
+        caption: 2018 - 2022
+        sub_title: Бакалавриат "Информационные системы и технологии"
+        description: |
+          За время обучения успел попробовать множество направлений и языков, прежде чем нашёл себя в мобильной разработке. Успел поработать в разных командах (от 2 до 5 человек)
+          
+          Разрабатывал
+          - бота для Discord (C#)
+          - игру на Unity (С#)
+          - desktop приложение на WPF (C#)
+          - мобильное приложение на Xamarin.Android (C#), впоследствии на kotlin
+          - веб API на ASP NET Core (C#), впоследствии на ktor (kotlin)
+          - веб сайт на Vue (TS)
+          - бэкенд для работы с нейросетью на Python
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
