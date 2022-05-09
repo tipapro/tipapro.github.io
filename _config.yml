@@ -21,7 +21,7 @@ linkedin_username: tipapro
 # Additional icon links
 additional_links:
 - title: telegram
-  icon: fa-brands fa-telegram
+  icon: fab fa-telegram
   url: https://telegram.me/anbotip
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
@@ -29,7 +29,7 @@ additional_links:
 
 # About Section
 about_title: Обо мне
-about_profile_image: images/profile.jpg
+#about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   С лета 2016 года программирую на C#. За это время написал разные проекты на нём (WPF, .Net Core бот для Discord, Asp Net Core Web Api + Vue.js + TS)
 
@@ -40,20 +40,29 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Edugma
+        link: github.com/Edugma/app
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Github
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+            url: github.com/Edugma/app
+        description: |
+          Децентрализованное мобильное приложение для учебных заведений. К нему может подключиться любое учебное заведение, подняв свой узел и реализовав нужный API. Пока в процессе (мои schedule фичи). Также пишу узел (Web API) для Московского политеха (kotlin + ktor)
+      
+      - layout: top-middle
+        title: mospolyhelper
+        link: github.com/mospolyhelper/mospolyhelper-android
+        # link_text: Project Website
+        additional_links:
+          - title:  Github
+            icon: fab fa-github
+            url: github.com/mospolyhelper/mospolyhelper-android
+          - title:  Google Play
+            icon: fab fa-google-play
+            url: play.google.com/store/apps/details?id=com.mospolytech.mospolyhelper
+        description: |
+          Мобильное приложение для Московского Политеха. (Android приложение + Asp Net Core Web Api + вебсайт на Vue.js)
 
   - title: Опыт работы
     layout: list
@@ -67,7 +76,11 @@ content:
         quote: >
           Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            Кодил в разных проектах:
+            - писал фичи в приложении для инвестирования (для России и для Великобритании),
+            - проектировал архитектуру и писал с нуля приложение для частого поcёлка и приложение для оплаты чавеых по лицу/QR коду
+            - переносил дизайн-систему (палитру (светлую и тёмную) + элементы) из фигмы
+            - рефакторил архитектуру приложения
 
   - title: Образование
     layout: list
