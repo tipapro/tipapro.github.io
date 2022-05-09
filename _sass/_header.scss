@@ -1,0 +1,83 @@
+.header-right {
+    text-align: right;
+}
+
+.header-left {
+    margin-top: 30px;
+
+    @media print {
+        margin-top: 0px;
+    }
+}
+
+.header-right p {
+    font-size: 1.6rem;
+    text-align: right;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* This line will vertically center the items */
+    height: 100px;
+    /* Adjust the height as needed */
+}
+
+.header-left,
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 2em;
+    /* Adjust the size as needed */
+}
+
+.header-right nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    /* Align to the right side */
+}
+
+.header-right nav li {
+    margin-left: 20px;
+    /* Space between items */
+}
+
+.header-right nav a {
+    text-decoration: none;
+    color: inherit;
+    /* Optional: Ensures the links use the text color of the parent element */
+}
+
+/* Optional: Style for the current/active page link */
+.header-right nav a.active {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    .header-container div {
+        text-align: center;
+    }
+
+    .header-right p {
+        text-align: center;
+    }
+
+    .header-left {
+        margin-top: 0px;
+    }
+}

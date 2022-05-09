@@ -1,0 +1,22 @@
+{% for item in include.content.content %}
+  <div class="row clearfix layout layout-top border-{{item.border | default: 'no'}}">
+    <div class="details">
+      <h4 id="{{ item.title | slugify }}">{{ item.title }}</h4>
+      {%- if item.sub_title -%}<p><b>{{ item.sub_title }}</b></p>{%- endif -%}
+      {%- if item.caption -%}<p>{{ item.caption }}</p>{%- endif -%}
+
+      {%- if item.link -%}
+        <a href="{{ item.link | absolute_url }}" target="_blank" class="link">
+          {{ item.link }}
+        </a>
+      {%- endif -%}
+
+      <p class="no-print">
+        {% include common/icon_button_row.liquid content=item.links size='medium' %}
+      </p>
+    </div>
+    <div>
+      {{ item.description | strip | markdownify }}
+    </div>
+  </div>
+{% endfor %}

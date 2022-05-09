@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+{%- include common/head.liquid -%}
+
+<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+  <div class="site-container">
+    <main class="wrapper">
+      {%- include common/header.liquid -%}
+      <div class="content">
+        {{ content }}
+      </div>
+      {%- include common/footer.liquid -%}
+    </main>
+
+    {% if site.darkmode == false %}
+      <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+    {% endif %}
+  </div>
+</body>
+
+</html>

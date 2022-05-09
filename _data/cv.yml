@@ -1,0 +1,160 @@
+# Personal info
+title: Android Developer
+email: tipapro@hotmail.com
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+links:
+  - name: Telegram
+    url: https://t.me/anbotip
+    icon: fa-brands fa-telegram
+  - name: Хабр Карьера
+    url: https://career.habr.com/tipapro
+    icon_url: https://career.habr.com/images/favicons/apple-touch-icon-180.png
+  - name: hh.ru
+    url: https://hh.ru/resume/6868a74bff08fef6210039ed1f69547550414d
+    icon_url: https://i.hh.ru/favicons/hh.ico
+
+about_me:
+  title: Обо мне
+  profile_image: /assets/images/profile.jpg
+  content: |
+    Люблю архитектурные задачи, проектировать фреймворки и писать красивый DSL для других разработчиков. Пишу статьи, пытаюсь активнее использовать Chat GPT.
+
+    Успел попробовать множество направлений разработки. Программирую с лета 2016 года на C#. С 06.2019 пишу под Android (на Xamarin.Android). С 04.2020 – на kotlin.
+
+skills:
+  - description: |
+      ##### Технологии
+      - Отличное знание (более 2 лет) Jetpack Compose и его тонкостей
+      - Хорошее знание Coroutines/Flow, Dagger 2
+      - Есть опыт написания KMP приложений с Compose Multiplatform
+
+      Прочее:
+      - UI: Material (2/3 You), Coil, Glide, View Binding
+      - Сеть: Retrofit, OkHttp, Ktor, Paging 3
+      - Навигация: Jetpack Navigation, Cicerone
+      - DI: Koin, Kodein
+      - Сериализация: kotlinx.serialization, Moshi, GSON
+      - Потоки данных: RxJava (редко использовал)
+      - Хранение данных: Room, Jetpack DataStore, файловая система Android
+      - Прочее: CameraX, Jsoup, Glance Appwidget
+
+      ##### Архитектура
+      - Умею проектировать красивый, понятный и краткий API для других разработчиков
+      - Есть опыт написания библиотек/фреймворков
+      - Имею опыт модуляризации приложений
+      - Знаю/работал с MVVM+, MVI, TEA (elm), UDF, Clean
+
+      ##### Производительность
+      - Отлично понимаю принцип работы Jetpack Compose и как писать производительный код на нём (написал 2 статьи про это)
+      - Есть опыт проведения устойчивых A/B экспериментов для метрик производительности
+      - Есть опыт интеграции метрик производителньости с нуля в код с Jetpack Compose
+
+      ##### Команда
+      - Проводил множество собеседований и составлял/дополнял вопросы для них
+      - Понимаю процессы разработки в больших командах
+      - Для фиксирования информации активно пишу документацию в коде/confluence/статьях
+
+      ##### CI/CD
+      - Есть опыт написания джоб на ruby для Gitlab
+      - Есть опыт настройки Gradle с нуля
+
+      ##### Тесты
+      - Unit-тесты для core компонентов/библиотек/бизнес-фич
+      - Есть опыт работы с Kaspresso, Allure, Marathon
+
+      ##### Инструментарий
+      Github, Gitlab, Jira, Figma, Confluence
+experience:
+  total: 4 года
+  content:
+    - title: Ведущий Android разработчик,  Ozon Seller — 06.2022 - наст. (1 год 11 месяцев)
+      link: https://seller.ozon.ru
+      description: |
+        Был в команде "Платформа" Ozon Seller (более 1 млн. скачиваний) - приложения для продавцов Ozon.
+  
+        Производительность:
+        - Исследовал и улучшил производительность Compose-экранов, автор статей по этой теме на Хабре и ProAndroidDev.
+        - Разработал инструмент для сбора метрик Total Time.
+        - Стандартизировал проведение A/B тестов для метрик производительности; решил проблемы с некорректными результатами.
+  
+        Архитектура:
+        - Разработал фреймворк для навигации (Ozon Navigation) поверх Jetpack Navigation, что упростило многомодульную навигацию и позволило плавно мигрировать с фрагментов на Compose.
+        - Вел работу по модуляризации приложений, выделил ключевые модули, подготовил руководство по модуляризации.
+        - Разработал фреймворка для TEA, сделал единую стейт-машину для управления состоянием авторизациии, продвигал исключение контекста из ViewModel.
+        - Провел исследования по проблеме Launch Mode, оптимизации размера APK, улучшению UI тестов и проблеме с диплинками.
+  
+        Команда:
+        - Провел множество технических собеседований, составил вопросы для Compose и улучшил остальные вопросы для собеседований.
+        - Исполнял обязанности тимлида в его отсутствие.
+        - Значительно улучшил техническую документацию в Confluence.
+  
+        Разработка и интеграция библиотек:
+        - Участвовал в создании и оптимизации производительности Ozon uikit на Compose.
+        - Интегрировал Ozon AbTool для управления фиче-флагами, обеспечил удобный статический доступ.
+        - Интегрировал OzonID для авторизации, успешно раскопав легаси код.
+        - Интегрировал и доработал Ozon Tracker для аналитики, добавив кастомизируемые события с удобным DSL.
+        
+  
+    - title: Android разработчик, Дар (Российский офис) — 05.2020 - 04.2022 (2 года)
+      link: https://dar.io
+      description: |
+          Кодил в разных проектах:
+          - писал фичи в приложении для инвестирования (для России и для Великобритании),
+          - проектировал архитектуру и писал с нуля приложение для частного поcёлка и приложение для оплаты чаевых по лицу/QR коду
+          - переносил дизайн-систему (палитру (светлую и тёмную) + элементы) из фигмы
+          - рефакторил архитектуру приложения
+articles:
+  - title: "Осознанная оптимизация Compose 2: В борьбе с композицией"
+    links:
+      - name: Хабр
+        url: "https://habr.com/p/742854"
+        icon_url: https://assets.habr.com/habr-web/img/favicons/favicon-32.png
+      - name: Medium
+        url: "https://proandroiddev.com/conscious-compose-optimization-e16144b80eef"
+        icon: fa-brands fa-medium
+  - title: Осознанная оптимизация Compose
+    links:
+      - name: Хабр
+        url: "https://habr.com/p/796437"
+        icon_url: https://assets.habr.com/habr-web/img/favicons/favicon-32.png
+
+projects:
+  - title: Edugma
+    links:
+      - title: Github
+        icon: fa-brands fa-github
+        url: "https://github.com/Edugma/app"
+    description: |
+      Децентрализованное мобильное приложение для учебных заведений. К нему может подключиться любое учебное заведение, подняв свой узел и реализовав нужный API. KMP, Compose Multiplatform. Также пишу узел (Web API) для Московского политеха (kotlin + ktor и всё в docker).
+      <br>Сайт (заглушка): [edugma.com](https://edugma.com) - веб версия: [app.edugma.com](https://app.edugma.com) - документация: [docs.edugma.com](https://docs.edugma.com)
+  
+  - title: mospolyhelper - 8000 скачиваний
+    links:
+      - title: Github
+        icon: fa-brands fa-github
+        url: "https://github.com/mospolyhelper/mospolyhelper-android"
+      - title: Google Play
+        icon: fa-brands fa-google-play
+        url: "https://play.google.com/store/apps/details?id=com.mospolytech.mospolyhelper"
+    description: |
+      Мобильное приложение для Московского Политеха.
+      Android приложение + Asp Net Core Web Api + вебсайт на Vue.js
+education:
+  - title: Московский политехнический университет - Магистратура, 2022 - 2024
+    sub_title: Информационные системы и технологии, Мобильные технологии
+  - title: Московский политехнический университет - Бакалавриат, 2018 - 2022
+    sub_title: Информационные системы и технологии
+    description: |
+      За время обучения успел попробовать множество направлений и языков, прежде чем нашёл себя в мобильной разработке. Успел поработать в разных командах (от 2 до 5 человек)
+      
+      Разрабатывал
+      - бота для Discord (C#)
+      - игру на Unity (С#)
+      - desktop приложение на WPF (C#)
+      - мобильное приложение на Xamarin.Android (C#), впоследствии на kotlin
+      - веб API на ASP NET Core (C#), впоследствии на ktor (kotlin)
+      - веб сайт на Vue (TS)
+      - бэкенд для работы с нейросетью на Python

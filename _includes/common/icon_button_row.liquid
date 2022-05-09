@@ -1,0 +1,22 @@
+<ul class="icon-button-row">
+    {% for link in include.content %}
+        <li>
+            {%- if link.icon -%}
+                {% if include.size == 'large' %}
+                    {% assign font_icon_size_class = 'fa-2x' %}
+                {% else %}
+                    {% assign font_icon_size_class = '' %}
+                {% endif %}
+                <a class="icon-button" href="{{ link.url }}" target="_blank" aria-label="{{ link.name }}">
+                    <i class="{{ link.icon }} {{ font_icon_size_class }}"></i>
+                </a>
+            {%- endif -%}
+            {% if link.icon_url %}
+                {% assign image_icon_size_class = include.size %}
+                <a class="icon-button {{ image_icon_size_class }}" href="{{ link.url }}" target="_blank" aria-label="{{ link.name }}">
+                    <img src="{{ link.icon_url }}" alt="{{ link.name }}" width="32" height="32">
+                </a>
+            {%- endif -%}
+        </li>
+    {% endfor %}
+</ul>

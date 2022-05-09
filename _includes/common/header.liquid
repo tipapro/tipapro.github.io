@@ -1,0 +1,22 @@
+<header>
+  <nav class="navigation">
+    <section class="container">
+      <a class="navigation-title" href="{{ "/" | absolute_url }}">
+        {{ site.title_short }}
+      </a>
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+          {% for item in site.header_pages %}
+            <li class="navigation-item">
+              <a class="navigation-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+    </section>
+  </nav>
+</header>
+
+

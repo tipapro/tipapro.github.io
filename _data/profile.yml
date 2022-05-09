@@ -1,0 +1,16 @@
+name: Андрей Богомолов
+whoiam: Android-разработчик
+description: |
+  Люблю архитектурные задачи, проектировать фреймворки и писать красивый DSL для других разработчиков. Пишу статьи, пытаюсь активнее использовать Chat GPT.
+profile_image: /assets/images/profile.jpg
+
+links:
+  - name: Telegram
+    url: https://t.me/anbotip
+    icon: fa-brands fa-telegram
+  - name: VK
+    url: https://vk.com/tipapro
+    icon: fa-brands fa-vk
+  - name: "GitHub"
+    url: "https://github.com/tipapro"
+    icon: fa-brands fa-github

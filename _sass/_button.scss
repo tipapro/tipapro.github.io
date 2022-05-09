@@ -1,0 +1,48 @@
+a.icon-button {
+  color: $fg-color;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  &:hover,
+  &:focus {
+    color: $link-color;
+  }
+  img {
+    height: 1.6rem;
+    width: auto;
+    vertical-align: middle;
+  }
+
+  &.large img {
+    height: 3.2rem;
+  }
+
+  &.small img {
+    height: 0.8rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    font-size: 1.4rem;
+    img {
+      height: 1.4rem;
+    }
+    &.large img {
+      height: 2.8rem;
+    }
+    &.small img {
+      height: 0.7rem;
+    }
+  }
+}
+
+ul.icon-button-row {
+  list-style: none;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+  }
+}

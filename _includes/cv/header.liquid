@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 cv-header-left">
+    <h1>{{ site.data.profile.name | escape }}</h1>
+    <h2>{{ site.data.cv.title | escape }}</h2>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 cv-header-right">
+    {% include common/icon_button_row.liquid content=site.data.cv.links size='large' %}
+
+    {%- if site.data.cv.email -%}
+      <p>
+        {{ site.data.cv.email_title | default: "Email" }}: <a href="mailto:{{ site.data.cv.email }}" target="_blank">{{ site.data.cv.email | escape }}</a>
+      </p>
+    {%- endif -%}
+    {%- if site.data.cv.phone -%}
+      <p>
+        {{ site.data.cv.phone_title | default: "Phone" }}: {{ site.data.cv.phone | escape }}
+      </p>
+    {%- endif -%}
+  </div>
+</div>

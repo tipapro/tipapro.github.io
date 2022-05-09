@@ -1,0 +1,62 @@
+# seo
+title: Андрей Богомолов | tipapro
+title_short: tipapro
+tagline: Андрей Богомолов | tipapro | Android разработчик
+description: Андрей Богомолов | tipapro | Android разработчик
+url: https://tipapro.dev/
+twitter:
+  username: tipapro
+  card: summary
+
+# other
+repository:  tipapro/tipapro.github.io
+favicon: assets/favicon.ico
+
+# header
+header_pages:
+  - title: "Главная"
+    url: "/"
+  - title: "Резюме"
+    url: "/cv"
+  - title: "Блог"
+    url: "/blog"
+
+# Dark Mode (true/false/never)
+darkmode: never
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+
+permalink: /blog/:short_year:month:day-:slug/
+
+# Pagination
+pagination:
+  enabled: true
+
+related_blog_posts:
+  enabled: true
+  max_related: 5
+
+# Build settings
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-email-protect
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-imagemagick
+  - jekyll-jupyter-notebook
+  - jekyll-link-attributes
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-toc
+  - jekyll-twitter-plugin
+  - jemoji
