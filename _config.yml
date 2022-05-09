@@ -30,19 +30,39 @@ additional_links:
 # About Section
 about_title: Обо мне
 #about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
+about_content: |
   С лета 2016 года программирую на C#. За это время написал разные проекты на нём (WPF, .Net Core бот для Discord, Asp Net Core Web Api + Vue.js + TS)
 
   С 06.2019 пишу под Android. 06.2019 - 03.2020 – на Xamarin.Android (C#). С 04.2020 – на kotlin.
 
 content:
+  - title: Скиллы
+    layout: list
+    content:
+      - layout: top-middle
+        title: kotlin
+        description: |
+          - UI: Jetpack Compose, Material (2), Material You (3), View Binding
+          - Изображения: Coil, Glide
+          - Сеть: Retrofit, OkHttp, Ktor, Paging 3
+          - Навигация: Cicerone, Jetpack Navigation
+          - DI: Koin, Kodein, Dagger 2 (редко использовал)
+          - Сериализация: kotlinx.serialization, GSON
+          - Потоки данных: Flow + Coroutines, RxJava 3 (редко использовал)
+          - Хранение данных: Room, KodeinDB, файловая система Android
+          - Прочее: CameraX, Jsoup, Glance Appwidget
+          - Архитектуры: MVVM, MVI, UDF, Clean
+
+          Знаком с Github, Jira, Trello, Figma
+
+          Люблю развивать, улучшать и экспериментировать с архитектурой проекта в поисках более простого и удобного варианта.
+
   - title: Проекты
     layout: list
     content:
       - layout: top-middle
         title: Edugma
         link: github.com/Edugma/app
-        # link_text: Project Website
         additional_links:
           - title:  Github
             icon: fab fa-github
@@ -62,7 +82,7 @@ content:
             icon: fab fa-google-play
             url: play.google.com/store/apps/details?id=com.mospolytech.mospolyhelper
         description: |
-          Мобильное приложение для Московского Политеха. (Android приложение + Asp Net Core Web Api + вебсайт на Vue.js)
+          Мобильное приложение для Московского Политеха. <mark>3000 загрузок</mark> (Android приложение + Asp Net Core Web Api + вебсайт на Vue.js)
 
   - title: Опыт работы
     layout: list
@@ -70,12 +90,9 @@ content:
       - layout: left
         title: Дар (Российский офис)
         link: dar.io
-        # link_text: boringcompany.com
         sub_title: Android Developer
         caption: Май 2020 — Апрель 2022 (2 года)
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
+        description: |
             Кодил в разных проектах:
             - писал фичи в приложении для инвестирования (для России и для Великобритании),
             - проектировал архитектуру и писал с нуля приложение для частого поcёлка и приложение для оплаты чавеых по лицу/QR коду
@@ -103,7 +120,7 @@ content:
 
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
