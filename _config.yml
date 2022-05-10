@@ -77,6 +77,7 @@ content:
       
       - layout: left
         title: mospolyhelper
+        caption: 3000 загрузок
         link: github.com/mospolyhelper/mospolyhelper-android
         # link_text: Project Website
         additional_links:
@@ -86,8 +87,6 @@ content:
           - title:  Google Play
             icon: fab fa-google-play
             url: play.google.com/store/apps/details?id=com.mospolytech.mospolyhelper
-        subtitle: 3000 загрузок
-        caption: 3000 загрузок
         description: |
           Мобильное приложение для Московского Политеха.
           Android приложение + Asp Net Core Web Api + вебсайт на Vue.js
