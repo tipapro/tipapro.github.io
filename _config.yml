@@ -12,7 +12,7 @@ email: tipapro@hotmail.com
 #website: www.github.com/tipapro
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 github_username:  tipapro
@@ -32,14 +32,14 @@ about_title: Обо мне
 #about_profile_image: images/profile.jpg
 about_content: |
   С лета 2016 года программирую на C#. За это время написал разные проекты на нём (WPF, .Net Core бот для Discord, Asp Net Core Web Api + Vue.js + TS)
-
   С 06.2019 пишу под Android. 06.2019 - 03.2020 – на Xamarin.Android (C#). С 04.2020 – на kotlin.
+  Люблю развивать, улучшать и экспериментировать с архитектурой проекта в поисках более простого и удобного варианта.
 
 content:
   - title: Скиллы
     layout: list
     content:
-      - layout: top-middle
+      - layout: top-left
         title: kotlin
         description: |
           - UI: Jetpack Compose, Material (2), Material You (3), View Binding
@@ -51,11 +51,15 @@ content:
           - Потоки данных: Flow + Coroutines, RxJava 3 (редко использовал)
           - Хранение данных: Room, KodeinDB, файловая система Android
           - Прочее: CameraX, Jsoup, Glance Appwidget
-          - Архитектуры: MVVM, MVI, UDF, Clean
+      - layout: left
+        title: Архитектуры
+        description: |
+          MVVM, MVI, UDF, Clean
+      - layout: top-right
+        title: Инструментарий
+        description: |
+          Github, Jira, Trello, Figma
 
-          Знаком с Github, Jira, Trello, Figma
-
-          Люблю развивать, улучшать и экспериментировать с архитектурой проекта в поисках более простого и удобного варианта.
 
   - title: Проекты
     layout: list
