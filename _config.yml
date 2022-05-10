@@ -41,7 +41,7 @@ content:
     content:
       - layout: left
         title: kotlin
-        sub_title: |
+        caption: |
           - UI: Jetpack Compose, Material (2), Material You (3), View Binding
           - Изображения: Coil, Glide
           - Сеть: Retrofit, OkHttp, Ktor, Paging 3
@@ -53,18 +53,18 @@ content:
           - Прочее: CameraX, Jsoup, Glance Appwidget
       - layout: left
         title: Архитектуры
-        sub_title: |
+        caption: |
           MVVM, MVI, UDF, Clean
       - layout: right
         title: Инструментарий
-        sub_title: |
+        caption: |
           Github, Jira, Trello, Figma
 
 
   - title: Проекты
     layout: list
     content:
-      - layout: top-middle
+      - layout: left
         title: Edugma
         link: github.com/Edugma/app
         additional_links:
@@ -74,7 +74,7 @@ content:
         description: |
           Децентрализованное мобильное приложение для учебных заведений. К нему может подключиться любое учебное заведение, подняв свой узел и реализовав нужный API. Пока в процессе (мои schedule фичи). Также пишу узел (Web API) для Московского политеха (kotlin + ktor)
       
-      - layout: top-middle
+      - layout: left
         title: mospolyhelper
         link: github.com/mospolyhelper/mospolyhelper-android
         # link_text: Project Website
