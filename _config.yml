@@ -41,7 +41,7 @@ content:
     layout: list
     content:
       - layout: top-left
-        sub_title: Android
+        title: Android
         description: |
           - UI: Jetpack Compose, Material (2), Material You (3), View Binding
           - Изображения: Coil, Glide
@@ -53,11 +53,11 @@ content:
           - Хранение данных: Room, KodeinDB, файловая система Android
           - Прочее: CameraX, Jsoup, Glance Appwidget
       - layout: top-left
-        sub_title: Архитектуры
+        title: Архитектуры
         description: |
           MVVM, MVI, UDF, Clean
       - layout: top-left
-        sub_title: Инструментарий
+        title: Инструментарий
         description: |
           Github, Jira, Trello, Figma
 
@@ -77,6 +77,7 @@ content:
       
       - layout: left
         title: mospolyhelper
+        subtitle: <mark>3000 загрузок</mark>
         link: github.com/mospolyhelper/mospolyhelper-android
         # link_text: Project Website
         additional_links:
@@ -87,7 +88,8 @@ content:
             icon: fab fa-google-play
             url: play.google.com/store/apps/details?id=com.mospolytech.mospolyhelper
         description: |
-          Мобильное приложение для Московского Политеха. <mark>3000 загрузок</mark> (Android приложение + Asp Net Core Web Api + вебсайт на Vue.js)
+          Мобильное приложение для Московского Политеха.
+          (Android приложение + Asp Net Core Web Api + вебсайт на Vue.js)
 
   - title: Опыт работы
     layout: list
