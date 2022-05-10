@@ -40,8 +40,8 @@ content:
   - title: Скиллы
     layout: list
     content:
-      - layout: top-middle
-        title: kotlin
+      - layout: top-left
+        sub_title: Android
         description: |
           - UI: Jetpack Compose, Material (2), Material You (3), View Binding
           - Изображения: Coil, Glide
@@ -52,12 +52,12 @@ content:
           - Потоки данных: Flow + Coroutines, RxJava 3 (редко использовал)
           - Хранение данных: Room, KodeinDB, файловая система Android
           - Прочее: CameraX, Jsoup, Glance Appwidget
-      - layout: top-middle
-        title: Архитектуры
+      - layout: top-left
+        sub_title: Архитектуры
         description: |
           MVVM, MVI, UDF, Clean
-      - layout: top-middle
-        title: Инструментарий
+      - layout: top-left
+        sub_title: Инструментарий
         description: |
           Github, Jira, Trello, Figma
 
