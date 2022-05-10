@@ -39,9 +39,9 @@ content:
   - title: Скиллы
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: kotlin
-        description: |
+        sub_title: |
           - UI: Jetpack Compose, Material (2), Material You (3), View Binding
           - Изображения: Coil, Glide
           - Сеть: Retrofit, OkHttp, Ktor, Paging 3
@@ -53,11 +53,11 @@ content:
           - Прочее: CameraX, Jsoup, Glance Appwidget
       - layout: left
         title: Архитектуры
-        description: |
+        sub_title: |
           MVVM, MVI, UDF, Clean
-      - layout: top-right
+      - layout: right
         title: Инструментарий
-        description: |
+        sub_title: |
           Github, Jira, Trello, Figma
 
 
@@ -109,7 +109,7 @@ content:
       - layout: left
         title: Московский политехнический университет
         caption: 2018 - 2022
-        sub_title: Бакалавр "Информационные системы и технологии"
+        sub_title: Бакалавриат "Информационные системы и технологии"
         description: |
           За время обучения успел попробовать множество направлений и языков, прежде чем нашёл себя в мобильной разработке. Успел поработать в разных командах (от 2 до 5 человек)
           
