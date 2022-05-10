@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Богомолов Андрей
-title: Android Developer
+title: Android Developer (2 года опыта)
 email: tipapro@hotmail.com
 #website: www.github.com/tipapro
 
@@ -31,17 +31,18 @@ additional_links:
 about_title: Обо мне
 #about_profile_image: images/profile.jpg
 about_content: |
-  С лета 2016 года программирую на C#. За это время написал разные проекты на нём (WPF, .Net Core бот для Discord, Asp Net Core Web Api + Vue.js + TS)
-  С 06.2019 пишу под Android. 06.2019 - 03.2020 – на Xamarin.Android (C#). С 04.2020 – на kotlin.
-  Люблю развивать, улучшать и экспериментировать с архитектурой проекта в поисках более простого и удобного варианта.
+  Попробовал множество направлений разработки. Люблю развивать, улучшать и экспериментировать с архитектурой проекта в поисках более простого и удобного варианта.
+  
+  Программирую с лета 2016 года на C#. С 06.2019 пишу под Android (на Xamarin.Android). С 04.2020 – на kotlin.
+  
 
 content:
   - title: Скиллы
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         title: kotlin
-        caption: |
+        description: |
           - UI: Jetpack Compose, Material (2), Material You (3), View Binding
           - Изображения: Coil, Glide
           - Сеть: Retrofit, OkHttp, Ktor, Paging 3
@@ -51,13 +52,13 @@ content:
           - Потоки данных: Flow + Coroutines, RxJava 3 (редко использовал)
           - Хранение данных: Room, KodeinDB, файловая система Android
           - Прочее: CameraX, Jsoup, Glance Appwidget
-      - layout: left
+      - layout: top-middle
         title: Архитектуры
-        caption: |
+        description: |
           MVVM, MVI, UDF, Clean
-      - layout: right
+      - layout: top-middle
         title: Инструментарий
-        caption: |
+        description: |
           Github, Jira, Trello, Figma
 
 
