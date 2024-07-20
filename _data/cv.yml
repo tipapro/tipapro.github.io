@@ -70,10 +70,16 @@ skills:
 experience:
   total: 4 года
   content:
-    - title: Ведущий Android разработчик,  Ozon Seller — 06.2022 - наст. (1 год 11 месяцев)
+    - title: Старший Android разработчик,  Wildberries — 06.2024 - наст.
+      link: https://www.wildberries.ru
+      description: |
+        Работаю в команде "Performance".
+
+  content:
+    - title: Ведущий Android разработчик,  Ozon Seller — 06.2022 - 06.2024. (2 года)
       link: https://seller.ozon.ru
       description: |
-        Был в команде "Платформа" Ozon Seller (более 1 млн. скачиваний) - приложения для продавцов Ozon.
+        Работал в команде "Платформа" Ozon Seller (более 1 млн. скачиваний) - приложения для продавцов Ozon.
   
         Производительность:
         - Исследовал и улучшил производительность Compose-экранов, автор статей по этой теме на Хабре и ProAndroidDev.
@@ -120,6 +126,9 @@ articles:
       - name: Хабр
         url: "https://habr.com/p/796437"
         icon_url: https://assets.habr.com/habr-web/img/favicons/favicon-32.png
+      - name: Medium
+        url: "https://proandroiddev.com/conscious-compose-optimization-2-tackling-composition-f3e42ce3069d"
+        icon: fa-brands fa-medium
 
 projects:
   - title: Edugma

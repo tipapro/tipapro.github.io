@@ -10,4 +10,7 @@ links:
   - name: Хабр
     url: "https://habr.com/p/796437"
     icon_url: https://assets.habr.com/habr-web/img/favicons/favicon-32.png
+  - name: Medium
+    url: "https://proandroiddev.com/conscious-compose-optimization-2-tackling-composition-f3e42ce3069d"
+    icon: fa-brands fa-medium
 ---
