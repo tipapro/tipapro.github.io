@@ -75,7 +75,6 @@ experience:
       description: |
         Работаю в команде "Performance".
 
-  content:
     - title: Ведущий Android разработчик,  Ozon Seller — 06.2022 - 06.2024. (2 года)
       link: https://seller.ozon.ru
       description: |
@@ -102,8 +101,7 @@ experience:
         - Интегрировал Ozon AbTool для управления фиче-флагами, обеспечил удобный статический доступ.
         - Интегрировал OzonID для авторизации, успешно раскопав легаси код.
         - Интегрировал и доработал Ozon Tracker для аналитики, добавив кастомизируемые события с удобным DSL.
-        
-  
+
     - title: Android разработчик, Дар (Российский офис) — 05.2020 - 04.2022 (2 года)
       link: https://dar.io
       description: |
